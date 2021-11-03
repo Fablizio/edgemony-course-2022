@@ -1,0 +1,29 @@
+
+main {
+  width: 80%;
+  margin: 50px auto 80px;
+  font-family: sans-serif;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form button {
+  line-height: 20px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+}
