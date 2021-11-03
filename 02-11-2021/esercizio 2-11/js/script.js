@@ -75,4 +75,5 @@ NameList.forEach (Object => {
     Object.email = Object.email.toLocaleLowerCase ();
 })
 
-console.log (NameList)
+console.log (NameList);
+
