@@ -60,7 +60,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     data.push(newUser);
+
     render(list, data);
+
+    form2.reset ()
   });
 
 });
