@@ -1,4 +1,4 @@
-import API from "./utilis.js";
+import {API} from "./utilis.js";
 import {list} from "./list.js";
 import {add} from "./add.js";
 

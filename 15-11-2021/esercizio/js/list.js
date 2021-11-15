@@ -1,4 +1,4 @@
-import {render} from "./utils.js";
+import {render} from "./utilis.js";
 
 const list = (data) => {
     const elements = data
