@@ -1,4 +1,7 @@
-import { render,API } from "./utilis.js";
+import {
+    render,
+    API
+} from "./utilis.js";
 
 const add = () => {
     const container = document.querySelector("#container");
@@ -15,7 +18,7 @@ const add = () => {
     
     
         <label for="expired">expired:</label>
-        <input type="number" min="2021" value="2022" id="expired" name="expired" />
+        <input type="date" min="2021-11-15" value="2021-11-15" id="expired" name="expired" />
       </div>
     </div>
     <button>Salva scheda</button>
@@ -30,9 +33,7 @@ const add = () => {
         const todos = {
             title: event.target.title.value,
             completed: event.target.completed.checked,
-            expired: parseInt(event.target.expired.value),
-
-
+            expired: event.target.expired.value,
         };
 
         console.log(todos);
@@ -46,4 +47,6 @@ const add = () => {
         });
     });
 };
-export {add};
+export {
+    add
+};

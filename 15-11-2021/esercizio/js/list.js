@@ -1,4 +1,6 @@
-import {render} from "./utilis.js";
+import {
+    render
+} from "./utilis.js";
 
 const list = (data) => {
     const elements = data
@@ -14,4 +16,6 @@ const list = (data) => {
     );
 };
 
-export {list};
+export {
+    list
+};
