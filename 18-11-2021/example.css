@@ -1,0 +1,9 @@
+@import url(./normalize.css);
+
+button {
+  transition: all 1s ease;
+}
+
+.enlargeYourFont {
+  transform: scale(2) rotate(360deg);
+}
