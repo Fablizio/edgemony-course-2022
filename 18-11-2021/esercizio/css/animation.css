@@ -18,6 +18,31 @@ body{
 
 }
 
+.grid {
+  display: grid;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". W ."
+    "S A D";
+  width: 150px;
+  height: 100px;
+}
+
+.W { grid-area: W; }
+
+.A { grid-area: A; }
+
+.S { grid-area: S; }
+
+.D { grid-area: D; }
+
+
 .mirror {
     transform: scaleX(-1);
     transform: scaleY(-1);
