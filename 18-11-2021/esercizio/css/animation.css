@@ -14,15 +14,20 @@ body{
     height: 256px;
     background: url(sprite.png);
     animation: animate 1s steps(6) infinite;
-    
-
 }
+
+.A {
+    background: url(sprite2.png);
+}
+
+
+
 
 .grid {
   display: grid;
   position: absolute;
-  top: 110%;
-  left: 50%;
+  top: 70%;
+  left: 75%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0px 0px;
@@ -43,10 +48,7 @@ body{
 .D { grid-area: D; }
 
 
-.mirror {
-    transform: scaleX(-1);
-    transform: scaleY(-1);
-}
+
 
 @keyframes animate {
     from {
